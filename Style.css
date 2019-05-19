@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+}
+.floatLeft {
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.w-25 {
+  width: 25%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-33 {
+  width: 33%;
+}
+#logo {
+  font-family: Cambria;
+  color: blue;
+  background-color: white;
+  font-size: 30px;
+}
+#search {
+  font-family: Corbel;
+  color: darkgrey;
+  background-color: aliceblue;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: Aldhabi;
+  font-size: 50px;
+  color: darkblue;
+}
+.footer {
+  font-family: Arial;
+  color: white;
+  padding: 50px;
+  margin: 5px;
+}
+.footerList {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  color: white;
+  display: block;
+}
+
+.cover-img {
+  width: 100%;
+  height: auto;
+}
